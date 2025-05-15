@@ -1,0 +1,98 @@
+body {
+    background-color: #f2e1dc;
+    font-family: Arial, sans-serif;
+    margin: 120px;
+    border: 1px solid black;
+    padding: 30px;
+}
+
+h1 {
+    color: #7a1d0c;
+    text-align: center;
+}
+
+p {
+    font-size: 18px;
+    text-align: justify;
+}
+
+ul {
+    padding-left: 20px;
+    line-height: 2em;
+}
+
+img {
+    width: 250px;
+    height: 200px;
+    border-radius: 15px;
+    display: block;
+    margin: 20px 0;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+
+table,
+th,
+td {
+    border: 1px solid #ccc;
+    width: 400px;
+    align-items: center;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+}
+
+td img {
+    align-self: center;
+    width: 90px;
+    height: 50px;
+}
+
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ff6600;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#mensagem {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+.principal {
+    display: flex;
+    gap: 180px;
+}
+
+.box {
+      background-color: #7a1d0c;
+      color: white;
+      padding: 50px;
+      width: 50%;
+      align-content: center;
+      border-radius: 8px;
+    }
+
+.mensagem{
+    margin-bottom: 40px;
+}
